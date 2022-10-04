@@ -25,3 +25,5 @@ Each comment has the following structure:
 * subreddit - contains the subreddit in which the comment was posted
 * created_utc - contains the date of submission in unixtime format
 * body - contains the text of the comment
+
+You can find the dataset on https://www.kaggle.com/competitions/datamining2022/data
