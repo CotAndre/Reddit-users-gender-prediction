@@ -13,16 +13,15 @@ The evaluation metric for this work is the Area Under the ROC Curve. This metric
 For every author in the dataset, submission files should contain two columns: author and gender. The column author should be a string. The column gender can be any real value. The higher is your confidence that the author is female, the higher should be the corresponding value in the gender column
 # Dataset
 We selected a total of 20k users with self reported gender. Among these, we selected 5000 for training, and the remaining 15000 are used for evaluation. You can download two different compressed csv data files: train_data.csv.gz contains all comments of the users selected for training. test_data.csv.gz contains the comments of the users selected for evaluation. The file train_target.csv contains the genders of the users selected for training.
-\begin{\itemize}
-\item
-train_data.csv.gz - contains all comments of the users selected for training
-train_target.csv - contains the genders of the users selected for training
-test_data.csv.gz - contains the comments of the users selected for evaluation
-sample.csv - a sample submission file in the correct format
-\end{\itemize}
+
+* train_data.csv.gz - contains all comments of the users selected for training
+* train_target.csv - contains the genders of the users selected for training
+* test_data.csv.gz - contains the comments of the users selected for evaluation
+* sample.csv - a sample submission file in the correct format
+
 Each comment has the following structure:
 
-author - contains the username of the author
-subreddit - contains the subreddit in which the comment was posted
-created_utc - contains the date of submission in unixtime format
-body - contains the text of the comment
+* author - contains the username of the author
+* subreddit - contains the subreddit in which the comment was posted
+* created_utc - contains the date of submission in unixtime format
+* body - contains the text of the comment
